@@ -1,2 +1,2 @@
-emp20["telecom"] = emp20["telecom"].str.capitalize()
-# print(emp20[["ename", "telecom"]])
+emp = pd.read_csv("data/emp.csv")
+# print(emp.groupby("job")['sal'].max().reset_index())
